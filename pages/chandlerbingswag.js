@@ -70,14 +70,14 @@ export default function ChandlerBingSwag() {
           <img
             src={'/chandler.png'}
             alt="Chandler overlay"
-            class="pure-img"
+            className="pure-img"
             style={{
               zIndex: 1,
               top: 0,
               left: 0,
               position: 'relative',
               width: '100%',
-              height: ' 100%',
+              height: '100%',
             }}
           />
         </div>
