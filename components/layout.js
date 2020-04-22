@@ -1,8 +1,17 @@
 import Head from 'next/head';
-import { initGA, logPageView } from '../analytics.js';
+import { useEffect } from 'react';
+import { initGA, logPageView } from '../analytics';
 import './layout.css';
 
 export default function Layout(props) {
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA();
+      window.GA_INITIALIZED = true;
+    }
+    logPageView();
+  }, []);
+
   return (
     <div>
       <Head>
