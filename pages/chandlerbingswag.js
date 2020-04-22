@@ -59,16 +59,16 @@ export default function ChandlerBingSwag() {
               className="pure-img rotateAlbum"
               style={{
                 zIndex: 0,
-                top: '53%',
-                left: '19%',
+                top: '54%',
+                left: '34%',
                 position: 'absolute',
                 height: '40%',
-                width: '54%',
+                width: '30%',
               }}
             />
           )}
           <img
-            src={'/images/chandler.png'}
+            src={'/images/chandler.jpg'}
             alt="Chandler overlay"
             className="pure-img"
             style={{
@@ -76,8 +76,8 @@ export default function ChandlerBingSwag() {
               top: 0,
               left: 0,
               position: 'relative',
-              width: '100%',
-              height: '100%',
+              width: '50%',
+              height: '50%',
             }}
           />
         </div>
@@ -113,7 +113,7 @@ export default function ChandlerBingSwag() {
             margin: 1em;
             padding: 8px 8px;
             font-size: larger;
-            width: 60%;
+            width: 30%;
             box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.2);
           }
 
