@@ -24,7 +24,7 @@ export default function Layout(props) {
 
       <footer
         style={{
-          position: 'fixed',
+          position: 'relative',
           display: 'flex',
           flexFlow: 'column nowrap',
           justifyContent: 'center',

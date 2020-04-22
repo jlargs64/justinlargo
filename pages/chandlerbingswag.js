@@ -68,9 +68,7 @@ export default function ChandlerBingSwag() {
             />
           )}
           <img
-            src={
-              'https://cdn140.picsart.com/241848734010212.png?type=webp&to=min&r=640'
-            }
+            src={'/images/chandler.png'}
             alt="Chandler overlay"
             className="pure-img"
             style={{
@@ -117,14 +115,6 @@ export default function ChandlerBingSwag() {
             font-size: larger;
             width: 60%;
             box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.2);
-          }
-
-          .footer {
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            bottom: 0;
           }
 
           .rotateAlbum {
