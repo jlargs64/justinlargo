@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { initGA, logPageView } from '../analytics.js';
 import './layout.css';
 
 export default function Layout(props) {
