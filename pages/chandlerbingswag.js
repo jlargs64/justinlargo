@@ -113,6 +113,7 @@ export default function ChandlerBingSwag() {
             margin: 1em;
             padding: 8px 8px;
             font-size: larger;
+            width: 60%;
             box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.2);
           }
 
