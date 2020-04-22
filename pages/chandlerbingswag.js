@@ -53,6 +53,11 @@ export default function ChandlerBingSwag() {
             className="pure-img chandlerOverlay"
           />
         </div>
+        <img
+          src={'/images/fff.png'}
+          alt="Chandler overlay"
+          className="pure-img"
+        />
       </div>
     </Layout>
   );
