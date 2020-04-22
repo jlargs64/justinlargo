@@ -1,0 +1,95 @@
+.backButton {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5em;
+  color: black;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.searchBar {
+  border-radius: 8px;
+  margin: 1em;
+  padding: 8px 8px;
+  font-size: larger;
+  width: 30%;
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 60%;
+  height: 50%;
+  margin-bottom: 10%;
+}
+
+.rotateAlbum {
+  -webkit-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+
+.albumCover {
+  z-index: 0;
+  top: 52%;
+  left: 25%;
+  position: absolute;
+  height: 42.5%;
+  width: 42.5%;
+}
+
+.chandlerOverlay {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: relative;
+  width: 80%;
+  height: 80%;
+}
+
+@media all and (min-width: 1024px) {
+  .searchBar {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .searchBar {
+    width: 70%;
+  }
+  .imageContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .chandlerOverlay {
+    width: 65%;
+    height: 65%;
+  }
+
+  .albumCover {
+    height: 40%;
+    width: 40%;
+    top: 54%;
+    left: 30%;
+  }
+}

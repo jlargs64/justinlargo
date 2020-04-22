@@ -39,14 +39,15 @@ export default function Home() {
             overflow: hidden;
             width: 100%;
             height: 50%;
+            min-height: 50%;
             top: 0;
             left: 0;
             position: fixed !important;
           }
           .splash {
-            /* absolute center .splash within .splash-container */
             width: 80%;
             height: 50%;
+            padding: 10%;
             margin: auto;
             position: absolute;
             top: 20px;
@@ -58,11 +59,11 @@ export default function Home() {
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
+            justify-content: center;
           }
-          /* This is the main heading that appears on the blue section */
           .splash-head {
             font-size: 20px;
-            font-weight: bold;
+            font-weight: 200;
             color: white;
             border: 3px solid white;
             padding: 1em 1.6em;
@@ -70,13 +71,16 @@ export default function Home() {
             border-radius: 5px;
             line-height: 1em;
             width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
           }
 
-          /* This is the subheading that appears on the blue section */
           .splash-subhead {
             color: white;
             letter-spacing: 0.05em;
             opacity: 0.9;
+            margin-bottom: 20%;
           }
           .content-wrapper {
             position: absolute;

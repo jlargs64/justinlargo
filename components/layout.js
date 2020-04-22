@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import './layout.css';
 
 export default function Layout(props) {
   return (

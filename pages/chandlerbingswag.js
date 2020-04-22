@@ -39,91 +39,21 @@ export default function ChandlerBingSwag() {
           placeholder="Search for an album..."
           onChange={handleChange}
         />
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            position: 'relative',
-            top: 0,
-            left: 0,
-            right: 0,
-            width: '60%',
-            height: '50%',
-            marginBottom: '10%',
-          }}
-        >
+        <div className="imageContainer">
           {albumURL === '' ? null : (
             <img
               src={albumURL}
               alt="album cover"
-              className="pure-img rotateAlbum"
-              style={{
-                zIndex: 0,
-                top: '54%',
-                left: '34%',
-                position: 'absolute',
-                height: '40%',
-                width: '30%',
-              }}
+              className="pure-img rotateAlbum albumCover"
             />
           )}
           <img
             src={'/images/chandler.jpg'}
             alt="Chandler overlay"
-            className="pure-img"
-            style={{
-              zIndex: 1,
-              top: 0,
-              left: 0,
-              position: 'relative',
-              width: '50%',
-              height: '50%',
-            }}
+            className="pure-img chandlerOverlay"
           />
         </div>
       </div>
-
-      <style jsx>
-        {`
-          .backButton {
-            border: 1px solid black;
-            border-radius: 10px;
-            padding: 0.5em;
-            color: black;
-            text-decoration: none;
-          }
-          .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100%;
-            width: 100%;
-          }
-
-          .container h1 {
-            font-size: 2.5em;
-            margin-bottom: 0;
-            word-wrap: break-word;
-            text-align: center;
-          }
-
-          .searchBar {
-            border-radius: 8px;
-            margin: 1em;
-            padding: 8px 8px;
-            font-size: larger;
-            width: 30%;
-            box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.2);
-          }
-
-          .rotateAlbum {
-            -webkit-transform: rotate(8deg);
-            -ms-transform: rotate(8deg);
-            transform: rotate(8deg);
-          }
-        `}
-      </style>
     </Layout>
   );
 }
