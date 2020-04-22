@@ -47,8 +47,9 @@ export default function ChandlerBingSwag() {
             top: 0,
             left: 0,
             right: 0,
-            width: '80%',
-            height: '60%',
+            width: '60%',
+            height: '50%',
+            marginBottom: '10%',
           }}
         >
           {albumURL === '' ? null : (
