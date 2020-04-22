@@ -26,9 +26,8 @@ export default function Home() {
         <div className="content">
           <h2>About me</h2>
           <p>
-            I'm Justin and I'm a student at Siena College, class of 2021! My
-            main hobbies are creating things that I think are cool and playing
-            rugby.
+            I'm a student at Siena College, class of 2021! My main hobbies are
+            creating things that I think are cool and playing rugby.
           </p>
         </div>
       </div>

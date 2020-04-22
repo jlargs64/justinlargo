@@ -47,15 +47,15 @@ export default function ChandlerBingSwag() {
             top: 0,
             left: 0,
             right: 0,
-            width: '50%',
-            height: '50%',
+            width: '80%',
+            height: '60%',
           }}
         >
           {albumURL === '' ? null : (
             <img
               src={albumURL}
               alt="album cover"
-              className="rotateAlbum"
+              className="pure-img rotateAlbum"
               style={{
                 zIndex: 0,
                 top: '53%',
@@ -69,6 +69,7 @@ export default function ChandlerBingSwag() {
           <img
             src={'/chandler.png'}
             alt="Chandler overlay"
+            class="pure-img"
             style={{
               zIndex: 1,
               top: 0,
