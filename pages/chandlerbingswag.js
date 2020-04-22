@@ -68,7 +68,9 @@ export default function ChandlerBingSwag() {
             />
           )}
           <img
-            src={'/chandler.png'}
+            src={
+              'https://cdn140.picsart.com/241848734010212.png?type=webp&to=min&r=640'
+            }
             alt="Chandler overlay"
             className="pure-img"
             style={{
