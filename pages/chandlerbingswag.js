@@ -48,7 +48,7 @@ export default function ChandlerBingSwag() {
             />
           )}
           <img
-            src={'/images/chandler.jpg'}
+            src={require('../public/images/chandler.jpg')}
             alt="Chandler overlay"
             className="pure-img chandlerOverlay"
           />
