@@ -7,15 +7,20 @@ export default function ChandlerBingSwag() {
   const [albumName, setAlbumName] = useState('');
   const [albumURL, setAlbumURL] = useState('');
   function handleChange(event) {
-    axios
-      .get(
-        `https://ws.audioscrobbler.com/2.0/?method=album.search&album=${albumName}&api_key=ff4da49cf67d499155af8d199da5d753&format=json&limit=5`,
-      )
-      .then((res) => {
-        const albums = res.data.results.albummatches.album;
+    if (albumName !== '') {
+      axios
+        .get(
+          `https://ws.audioscrobbler.com/2.0/?method=album.search&album=${albumName}&api_key=ff4da49cf67d499155af8d199da5d753&format=json&limit=5`,
+        )
+        .then((res) => {
+          const albums = res.data.results.albummatches.album;
 
-        setAlbumURL(albums[0].image[3]['#text']);
-      });
+          setAlbumURL(albums[0].image[3]['#text']);
+        })
+        .catch((err) => {
+          console.log('oops, an error occurred!');
+        });
+    }
     setAlbumName(event.target.value);
   }
 
@@ -52,6 +57,7 @@ export default function ChandlerBingSwag() {
             alt="Chandler overlay"
             className="pure-img chandlerOverlay"
           />
+          <div className="overflow-clear" />
         </div>
       </div>
     </Layout>

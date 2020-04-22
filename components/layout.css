@@ -43,27 +43,36 @@
 }
 
 .rotateAlbum {
-  -webkit-transform: rotate(12deg);
-  -ms-transform: rotate(12deg);
-  transform: rotate(12deg);
+  -webkit-transform: rotate(14deg);
+  -ms-transform: rotate(14deg);
+  transform: rotate(14deg);
 }
 
 .albumCover {
   z-index: 0;
-  top: 52%;
-  left: 25%;
+  top: 54%;
+  left: 18.5%;
   position: absolute;
-  height: 42.5%;
-  width: 42.5%;
+  height: 50%;
+  width: 48%;
 }
 
 .chandlerOverlay {
-  z-index: 1;
+  z-index: 2;
   top: 0;
   left: 0;
   position: relative;
   width: 80%;
   height: 80%;
+}
+
+.overflow-clear {
+  z-index: 1;
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  top: 100%;
+  background-color: white;
 }
 
 @media all and (min-width: 1024px) {
@@ -76,6 +85,7 @@
   .searchBar {
     width: 70%;
   }
+
   .imageContainer {
     width: 100%;
     height: 100%;
@@ -87,9 +97,15 @@
   }
 
   .albumCover {
-    height: 40%;
-    width: 40%;
-    top: 54%;
-    left: 30%;
+    height: 50%;
+    width: 45%;
+    top: 53%;
+    left: 21%;
+  }
+
+  .rotateAlbum {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
   }
 }
