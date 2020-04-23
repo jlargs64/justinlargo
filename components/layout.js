@@ -21,6 +21,13 @@ export default function Layout(props) {
           name="description"
           content="Justin Largo is a software engineer and entrepreneur based in NJ."
         />
+        <meta property="og:url" content="https://justinlargo.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Justin Largo" />
+        <meta
+          property="og:description"
+          content="Justin Largo is a software engineer and entrepreneur based in NJ."
+        />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
