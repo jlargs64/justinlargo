@@ -38,7 +38,7 @@ export default function Layout(props) {
           crossOrigin="anonymous"
         />
       </Head>
-      <main>{props.children}</main>
+      <main style={{ width: '100%', height: '100%' }}>{props.children}</main>
 
       <footer
         style={{
@@ -48,9 +48,9 @@ export default function Layout(props) {
           justifyContent: 'center',
           alignItems: 'center',
           width: '100%',
-          bottom: '-10%',
+          bottom: '-25%',
           zIndex: 2,
-          marginTop: 10,
+          marginTop: '10%',
         }}
       >
         <p style={{ marginBottom: 0 }}>Built by Justin Largo</p>
