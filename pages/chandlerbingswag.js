@@ -59,6 +59,11 @@ export default function ChandlerBingSwag() {
           />
           <div className="overflow-clear" />
         </div>
+        <p>
+          Credit to{' '}
+          <Link href="https://twitter.com/natural_glo1"> Emily Perino </Link>for
+          the photoshop!
+        </p>
       </div>
     </Layout>
   );
