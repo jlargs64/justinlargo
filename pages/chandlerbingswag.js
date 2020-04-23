@@ -59,7 +59,7 @@ export default function ChandlerBingSwag() {
           />
           <div className="overflow-clear" />
         </div>
-        <p>
+        <p style={{ zIndex: 3 }}>
           Credit to{' '}
           <a href="https://twitter.com/natural_glo1"> Emily Perino </a>for the
           photoshop!
