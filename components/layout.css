@@ -51,10 +51,10 @@
 .albumCover {
   z-index: 0;
   top: 53%;
-  left: 32%;
+  left: 27%;
   position: absolute;
   height: 51%;
-  width: 30%;
+  width: 41%;
 }
 
 .chandlerOverlay {
@@ -111,8 +111,8 @@
   }
 
   .rotateAlbum {
-    -webkit-transform: rotate(12deg);
-    -ms-transform: rotate(12deg);
-    transform: rotate(12deg);
+    -webkit-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
   }
 }
