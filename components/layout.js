@@ -48,8 +48,9 @@ export default function Layout(props) {
           justifyContent: 'center',
           alignItems: 'center',
           width: '100%',
-          bottom: '-25%',
+          bottom: '-10%',
           zIndex: 2,
+          marginTop: 10,
         }}
       >
         <p style={{ marginBottom: 0 }}>Built by Justin Largo</p>
