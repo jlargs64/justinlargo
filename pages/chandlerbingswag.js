@@ -61,8 +61,8 @@ export default function ChandlerBingSwag() {
         </div>
         <p>
           Credit to{' '}
-          <Link href="https://twitter.com/natural_glo1"> Emily Perino </Link>for
-          the photoshop!
+          <a href="https://twitter.com/natural_glo1"> Emily Perino </a>for the
+          photoshop!
         </p>
       </div>
     </Layout>

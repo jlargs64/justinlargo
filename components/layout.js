@@ -44,7 +44,8 @@ export default function Layout(props) {
           bottom: 0,
         }}
       >
-        <p style={{ marginBottom: 0 }}>Built with &#10084; by Justin Largo</p>
+        <p style={{ marginBottom: 0 }}>Built by Justin Largo</p>
+
         <p style={{ marginTop: 0 }}> &copy; {new Date().getFullYear()}</p>
       </footer>
     </div>
