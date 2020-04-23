@@ -42,10 +42,6 @@
   margin-bottom: 10%;
 }
 
-.rotateAlbum {
-  transform: rotate(8deg);
-}
-
 .albumCover {
   z-index: 0;
   top: 53%;
@@ -53,6 +49,7 @@
   position: absolute;
   height: 51%;
   width: 41%;
+  transform: rotate(8deg);
 }
 
 .chandlerOverlay {
@@ -84,6 +81,13 @@
   .imageContainer {
     height: 40%;
   }
+  .albumCover {
+    top: 53%;
+    left: 35.5%;
+    height: 51%;
+    width: 25%;
+    transform: rotate(10deg);
+  }
 }
 
 @media all and (max-width: 414px) {
@@ -102,13 +106,10 @@
   }
 
   .albumCover {
-    height: 50%;
-    width: 45%;
-    top: 54%;
-    left: 23%;
-  }
-
-  .rotateAlbum {
-    transform: rotate(6deg);
+    height: 51%;
+    width: 33%;
+    top: 53%;
+    left: 31%;
+    transform: rotate(9deg);
   }
 }

@@ -66,7 +66,7 @@ export default function Home() {
             font-weight: 200;
             color: white;
             border: 3px solid white;
-            padding: 1em 2em;
+            padding: 1em 1.6em;
             font-weight: 100;
             border-radius: 5px;
             line-height: 1em;
@@ -75,7 +75,6 @@ export default function Home() {
             align-items: center;
             justify-content: center;
           }
-
           .splash-subhead {
             color: white;
             letter-spacing: 0.05em;
@@ -85,10 +84,11 @@ export default function Home() {
           .content-wrapper {
             position: absolute;
             top: 40%;
-            width: 100%;
+            width: 90%;
             min-height: 12%;
             z-index: 2;
             background: white;
+            padding-left: 10%;
           }
           .card {
             border: 1px solid black;
@@ -115,12 +115,7 @@ export default function Home() {
             cursor: pointer;
           }
           .content {
-            padding: 1em 2em;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: start;
-            flex-flow: column wrap;
+            padding: 1em 1em 3em;
           }
           .apps {
             display: flex;

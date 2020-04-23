@@ -49,7 +49,7 @@ export default function ChandlerBingSwag() {
             <img
               src={albumURL}
               alt="album cover"
-              className="pure-img rotateAlbum albumCover"
+              className="pure-img albumCover"
             />
           )}
           <img

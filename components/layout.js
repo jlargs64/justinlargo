@@ -35,13 +35,13 @@ export default function Layout(props) {
 
       <footer
         style={{
-          position: 'fixed',
+          position: 'absolute',
           display: 'flex',
           flexFlow: 'column wrap',
           justifyContent: 'center',
           alignItems: 'center',
           width: '100%',
-          bottom: 0,
+          bottom: '-25%',
           zIndex: 2,
         }}
       >
