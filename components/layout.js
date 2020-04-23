@@ -35,13 +35,14 @@ export default function Layout(props) {
 
       <footer
         style={{
-          position: 'relative',
+          position: 'fixed',
           display: 'flex',
-          flexFlow: 'column nowrap',
+          flexFlow: 'column wrap',
           justifyContent: 'center',
           alignItems: 'center',
           width: '100%',
           bottom: 0,
+          zIndex: 2,
         }}
       >
         <p style={{ marginBottom: 0 }}>Built by Justin Largo</p>

@@ -26,7 +26,7 @@
   margin: 1em;
   padding: 8px 8px;
   font-size: larger;
-  width: 30%;
+  width: 50%;
   box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -43,8 +43,6 @@
 }
 
 .rotateAlbum {
-  -webkit-transform: rotate(8deg);
-  -ms-transform: rotate(8deg);
   transform: rotate(8deg);
 }
 
@@ -106,13 +104,11 @@
   .albumCover {
     height: 50%;
     width: 45%;
-    top: 53%;
-    left: 21%;
+    top: 54%;
+    left: 23%;
   }
 
   .rotateAlbum {
-    -webkit-transform: rotate(8deg);
-    -ms-transform: rotate(8deg);
-    transform: rotate(8deg);
+    transform: rotate(6deg);
   }
 }
